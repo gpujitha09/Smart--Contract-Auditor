@@ -1,4 +1,14 @@
-# � Smart Contract Security Auditor — RL + LLM
+---
+title: Smart Contract Auditor
+emoji: 🛡️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
+#  Smart Contract Security Auditor — RL + LLM
 
 An advanced **OpenEnv reinforcement learning environment** where AI agents learn to audit Solidity smart contracts for security vulnerabilities.
 
