@@ -1,0 +1,2502 @@
+{
+  "q_table": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "alpha": 0.1,
+  "gamma": 0.95,
+  "epsilon": 0.1,
+  "learning_history": [
+    {
+      "episode": 0,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 2,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 3,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 4,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 1,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 1,
+      "step": 3,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 4,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 2,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 4,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 1,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 2,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 4,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 1,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 2,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 3,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 3,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 4,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 2,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 4,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 1,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 2,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 1,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 3,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 3,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 3,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 10,
+      "step": 4,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 1,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 4,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 12,
+      "step": 1,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 2,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 4,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 1,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 4,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 1,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 14,
+      "step": 3,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 4,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 1,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 2,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 3,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 4,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 1,
+      "action": "integer_overflow",
+      "reward": 0.7
+    },
+    {
+      "episode": 16,
+      "step": 2,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 1,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 4,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 1,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 2,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 2,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 3,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 4,
+      "action": "integer_overflow",
+      "reward": 0.7
+    },
+    {
+      "episode": 20,
+      "step": 1,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 2,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 3,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 4,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 1,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 4,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 2,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 4,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 1,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 24,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 2,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 3,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 1,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 2,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 4,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 1,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 2,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 3,
+      "action": "selfdestruct",
+      "reward": 0.7
+    },
+    {
+      "episode": 27,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 1,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 4,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 1,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 2,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 1,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 3,
+      "action": "unchecked_return",
+      "reward": 0.7
+    },
+    {
+      "episode": 0,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 5,
+      "action": "timestamp_dependence",
+      "reward": 1.0
+    },
+    {
+      "episode": 0,
+      "step": 6,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 0,
+      "step": 7,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 1,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 2,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 5,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 6,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 1,
+      "step": 7,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 1,
+      "action": "access_control",
+      "reward": 1.0
+    },
+    {
+      "episode": 2,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 4,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 5,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 6,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 2,
+      "step": 7,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 1,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 3,
+      "action": "access_control",
+      "reward": 1.0
+    },
+    {
+      "episode": 3,
+      "step": 4,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 5,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 6,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 3,
+      "step": 7,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 1,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 3,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 5,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 6,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 4,
+      "step": 7,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 1,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 2,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 5,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 5,
+      "step": 6,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 5,
+      "step": 7,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 1,
+      "action": "access_control",
+      "reward": 1.0
+    },
+    {
+      "episode": 6,
+      "step": 2,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 3,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 5,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 6,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 6,
+      "step": 7,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 1,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 7,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 5,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 6,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 7,
+      "step": 7,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 1,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 2,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 3,
+      "action": "denial_of_service",
+      "reward": 0.7
+    },
+    {
+      "episode": 8,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 5,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 6,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 8,
+      "step": 7,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 1,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 3,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 5,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 6,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 9,
+      "step": 7,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 1,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 2,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 4,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 5,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 6,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 10,
+      "step": 7,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 1,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 2,
+      "action": "unchecked_return",
+      "reward": 0.7
+    },
+    {
+      "episode": 11,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 5,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 11,
+      "step": 6,
+      "action": "timestamp_dependence",
+      "reward": 1.0
+    },
+    {
+      "episode": 11,
+      "step": 7,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 1,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 2,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 4,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 5,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 12,
+      "step": 6,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 12,
+      "step": 7,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 1,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 2,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 3,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 4,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 5,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 6,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 13,
+      "step": 7,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 1,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 2,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 3,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 14,
+      "step": 5,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 6,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 14,
+      "step": 7,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 1,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 2,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 4,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 5,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 6,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 15,
+      "step": 7,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 2,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 3,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 16,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 5,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 6,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 16,
+      "step": 7,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 1,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 2,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 5,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 6,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 17,
+      "step": 7,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 1,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 2,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 4,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 5,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 6,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 18,
+      "step": 7,
+      "action": "unchecked_return",
+      "reward": 0.7
+    },
+    {
+      "episode": 19,
+      "step": 1,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 2,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 5,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 6,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 19,
+      "step": 7,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 1,
+      "action": "denial_of_service",
+      "reward": 0.7
+    },
+    {
+      "episode": 20,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 4,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 5,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 6,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 20,
+      "step": 7,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 1,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 2,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 3,
+      "action": "timestamp_dependence",
+      "reward": 1.0
+    },
+    {
+      "episode": 21,
+      "step": 4,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 5,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 6,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 21,
+      "step": 7,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 1,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 2,
+      "action": "timestamp_dependence",
+      "reward": 1.0
+    },
+    {
+      "episode": 22,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 4,
+      "action": "tx_origin",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 5,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 6,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 22,
+      "step": 7,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 2,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 3,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 4,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 5,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 6,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 23,
+      "step": 7,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 1,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 2,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 3,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 4,
+      "action": "flash_loan",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 5,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 6,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 24,
+      "step": 7,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 1,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 2,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 3,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 4,
+      "action": "delegatecall",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 5,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 25,
+      "step": 6,
+      "action": "denial_of_service",
+      "reward": 0.7
+    },
+    {
+      "episode": 25,
+      "step": 7,
+      "action": "denial_of_service",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 1,
+      "action": "selfdestruct",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 2,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 3,
+      "action": "reentrancy",
+      "reward": 1.0
+    },
+    {
+      "episode": 26,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 5,
+      "action": "precision_loss",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 6,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 26,
+      "step": 7,
+      "action": "access_control",
+      "reward": 1.0
+    },
+    {
+      "episode": 27,
+      "step": 1,
+      "action": "timestamp_dependence",
+      "reward": 1.0
+    },
+    {
+      "episode": 27,
+      "step": 2,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 3,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 4,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 5,
+      "action": "uninitialized_storage",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 6,
+      "action": "integer_overflow",
+      "reward": 0.0
+    },
+    {
+      "episode": 27,
+      "step": 7,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 1,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 2,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 3,
+      "action": "front_running",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 4,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 5,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 6,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 28,
+      "step": 7,
+      "action": "tx_origin",
+      "reward": 0.7
+    },
+    {
+      "episode": 29,
+      "step": 1,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 2,
+      "action": "access_control",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 3,
+      "action": "unchecked_return",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 4,
+      "action": "timestamp_dependence",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 5,
+      "action": "oracle_manipulation",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 6,
+      "action": "reentrancy",
+      "reward": 0.0
+    },
+    {
+      "episode": 29,
+      "step": 7,
+      "action": "reentrancy",
+      "reward": 0.0
+    }
+  ],
+  "timestamp": "2026-04-07T22:10:03.684217"
+}

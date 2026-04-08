@@ -1,0 +1,15 @@
+name: smart_contract_auditor
+version: "1.0.0"
+description: >
+  An RL environment where an AI agent audits Solidity smart contracts
+  for security vulnerabilities including reentrancy, integer overflow,
+  access control flaws, and more. The agent identifies vulnerability type,
+  location, severity, and suggests fixes. Rewards are based on accuracy.
+
+tasks:
+  - name: basic_audit
+    description: "Single vulnerability in a short contract (easy)"
+  - name: intermediate_audit
+    description: "Two vulnerabilities of different types (medium)"
+  - name: advanced_audit
+    description: "Three vulnerabilities with subtle bugs and red herrings (hard)"
