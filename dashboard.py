@@ -13,11 +13,11 @@ import gradio as gr
 import json
 from typing import List, Tuple
 
-from .agent_learner import AuditorAgent
-from .environment import SmartContractAuditorEnv
-from .inference import run_task_with_llm
-from .models import AuditAction
-from .contracts import TASK_NAMES
+from agent_learner import AuditorAgent
+from environment import SmartContractAuditorEnv
+from inference import run_task_with_llm
+from models import AuditAction
+from contracts import TASK_NAMES
 
 
 # Global instances
@@ -105,12 +105,12 @@ def compare_audits(
     )
 
 
-# ── Gradio UI ──────────────────────────────────────────────────
+# â”€â”€ Gradio UI â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) as demo:
     
     gr.Markdown("""
-    # 🔐 Smart Contract Security Auditor
+    # ðŸ” Smart Contract Security Auditor
     
     **AI-powered vulnerability detection for Solidity contracts**
     
@@ -121,8 +121,8 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
     
     with gr.Tabs():
         
-        # ── Tab 1: RL Agent ──
-        with gr.TabItem("🤖 RL Agent Auditor"):
+        # â”€â”€ Tab 1: RL Agent â”€â”€
+        with gr.TabItem("ðŸ¤– RL Agent Auditor"):
             with gr.Row():
                 contract_code_rl = gr.Textbox(
                     label="Solidity Contract Code",
@@ -137,7 +137,7 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                     value="MyContract",
                     scale=1,
                 )
-                run_rl_btn = gr.Button("🔍 Audit with RL Agent", scale=1)
+                run_rl_btn = gr.Button("ðŸ” Audit with RL Agent", scale=1)
             
             with gr.Row():
                 rl_findings_output = gr.Code(
@@ -156,8 +156,8 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                 outputs=[rl_findings_output, rl_summary_output],
             )
         
-        # ── Tab 2: LLM Auditor ──
-        with gr.TabItem("🧠 LLM (HF) Auditor"):
+        # â”€â”€ Tab 2: LLM Auditor â”€â”€
+        with gr.TabItem("ðŸ§  LLM (HF) Auditor"):
             with gr.Row():
                 contract_code_llm = gr.Textbox(
                     label="Solidity Contract Code",
@@ -172,7 +172,7 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                     value="MyContract",
                     scale=1,
                 )
-                run_llm_btn = gr.Button("🔍 Audit with LLM", scale=1)
+                run_llm_btn = gr.Button("ðŸ” Audit with LLM", scale=1)
             
             with gr.Row():
                 llm_findings_output = gr.Code(
@@ -191,8 +191,8 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                 outputs=[llm_findings_output, llm_summary_output],
             )
         
-        # ── Tab 3: Comparison ──
-        with gr.TabItem("⚖️ Compare Both"):
+        # â”€â”€ Tab 3: Comparison â”€â”€
+        with gr.TabItem("âš–ï¸ Compare Both"):
             with gr.Row():
                 contract_code_compare = gr.Textbox(
                     label="Solidity Contract Code",
@@ -207,7 +207,7 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                     value="MyContract",
                     scale=1,
                 )
-                run_compare_btn = gr.Button("⚖️ Compare Auditors", scale=1)
+                run_compare_btn = gr.Button("âš–ï¸ Compare Auditors", scale=1)
             
             with gr.Row():
                 rl_comp_output = gr.Code(
@@ -233,8 +233,8 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
                 outputs=[rl_comp_output, llm_comp_output, comparison_output],
             )
         
-        # ── Tab 4: Examples ──
-        with gr.TabItem("📚 Examples"):
+        # â”€â”€ Tab 4: Examples â”€â”€
+        with gr.TabItem("ðŸ“š Examples"):
             gr.Markdown("""
             ### Example Contracts
             
@@ -267,10 +267,10 @@ with gr.Blocks(title="Smart Contract Security Auditor", theme=gr.themes.Soft()) 
             ```
             """)
     
-    # ── Footer ──
+    # â”€â”€ Footer â”€â”€
     gr.Markdown("""
     ---
-    **Eternal Champ | Smart Contract Security Auditor © 2026 - All Rights Reserved**  
+    **Eternal Champ | Smart Contract Security Auditor Â© 2026 - All Rights Reserved**  
     Powered by Q-Learning & HF Inference Router
     """)
 

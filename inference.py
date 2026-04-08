@@ -12,12 +12,12 @@ import textwrap
 from typing import List, Optional, Tuple
 from openai import OpenAI
 
-from .config import config
-from .models import AuditAction
-from .environment import SmartContractAuditorEnv
-from .contracts import TASK_NAMES
+from config import config
+from models import AuditAction
+from environment import SmartContractAuditorEnv
+from contracts import TASK_NAMES
 
-# ── Configuration ─────────────────────────────────────────────
+# â”€â”€ Configuration â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 API_BASE_URL = os.getenv("API_BASE_URL", "https://api-inference.huggingface.co/v1")
 MODEL_NAME = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-72B-Instruct")
 HF_TOKEN = os.getenv("HF_TOKEN", "")
@@ -58,12 +58,12 @@ When you have found ALL vulnerabilities, respond with exactly:
 RULES:
 - Report ONE vulnerability per response
 - Use the exact function name from the code for "location"
-- Be precise with vulnerability type — use the valid types listed above
+- Be precise with vulnerability type â€” use the valid types listed above
 - Provide a concrete fix suggestion
 """).strip()
 
 
-# ── Logging helpers ───────────────────────────────────────────
+# â”€â”€ Logging helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 def log_start(task: str, env: str, model: str) -> None:
     print(f"[START] task={task} env={env} model={model}", flush=True)
 
@@ -85,7 +85,7 @@ def log_end(success: bool, steps: int, score: float, rewards: List[float]) -> No
     )
 
 
-# ── LLM interaction using OpenAI Client ──────────────────────
+# â”€â”€ LLM interaction using OpenAI Client â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 def query_llm(messages: list, max_retries: int = 3) -> str:
     """
     Query LLM using OpenAI-compatible client (pointing to HuggingFace).
@@ -114,7 +114,7 @@ def query_llm(messages: list, max_retries: int = 3) -> str:
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
                 print(
-                    f"  [LLM ERROR] {err_msg[:80]} — retrying in {wait_time}s (attempt {attempt+1}/{max_retries})",
+                    f"  [LLM ERROR] {err_msg[:80]} â€” retrying in {wait_time}s (attempt {attempt+1}/{max_retries})",
                     flush=True,
                 )
                 time.sleep(wait_time)
@@ -144,7 +144,7 @@ def parse_llm_response(text: str) -> AuditAction:
     return AuditAction(vulnerability_type="done")
 
 
-# ── Run one task ──────────────────────────────────────────────
+# â”€â”€ Run one task â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 def run_task(task_name: str, env: SmartContractAuditorEnv) -> float:
     """Run a single audit task using OpenAI-compatible LLM client."""
     log_start(task=task_name, env=BENCHMARK, model=MODEL_NAME)
@@ -213,7 +213,7 @@ def run_task(task_name: str, env: SmartContractAuditorEnv) -> float:
     return score
 
 
-# ── Helper for dashboard ──────────────────────────────────────
+# â”€â”€ Helper for dashboard â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 def run_task_with_llm(
     contract_code: str,
     contract_name: str,
@@ -265,7 +265,7 @@ def main():
     env = SmartContractAuditorEnv()
 
     print(f"{'='*60}", flush=True)
-    print(f"Smart Contract Security Auditor — LLM Inference", flush=True)
+    print(f"Smart Contract Security Auditor â€” LLM Inference", flush=True)
     print(f"Model: {MODEL_NAME}", flush=True)
     print(f"API:   {API_BASE_URL}", flush=True)
     print(f"{'='*60}\n", flush=True)

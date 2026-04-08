@@ -167,7 +167,7 @@ class MetricsTracker:
                     "advanced_audit": self.get_training_summary("advanced_audit"),
                 }
             }, f, indent=2)
-        print(f"✓ Training metrics saved to {filepath}")
+        print(f"âœ“ Training metrics saved to {filepath}")
 
     def save_inference_log(self):
         """Save inference metrics to JSON file."""
@@ -182,7 +182,7 @@ class MetricsTracker:
                     "llm": self.get_inference_summary("llm"),
                 }
             }, f, indent=2)
-        print(f"✓ Inference metrics saved to {filepath}")
+        print(f"âœ“ Inference metrics saved to {filepath}")
 
     def print_training_report(self):
         """Print training metrics to console."""
@@ -195,7 +195,7 @@ class MetricsTracker:
             if summary:
                 print(f"\n{task}:")
                 print(f"  Episodes: {summary['total_episodes']}")
-                print(f"  Avg Reward: {summary['avg_reward']:.3f} ± {summary['std_reward']:.3f}")
+                print(f"  Avg Reward: {summary['avg_reward']:.3f} Â± {summary['std_reward']:.3f}")
                 print(f"  Success Rate: {summary['success_rate']:.1%}")
                 print(f"  Range: [{summary['min_reward']:.3f}, {summary['max_reward']:.3f}]")
 
@@ -210,7 +210,7 @@ class MetricsTracker:
             if summary:
                 print(f"\n{model.upper()} Model:")
                 print(f"  Runs: {summary['total_runs']}")
-                print(f"  Avg Score: {summary['avg_score']:.3f} ± {summary['std_score']:.3f}")
+                print(f"  Avg Score: {summary['avg_score']:.3f} Â± {summary['std_score']:.3f}")
                 print(f"  Avg Latency: {summary['avg_latency_ms']:.1f}ms")
                 print(f"  Range: [{summary['min_score']:.3f}, {summary['max_score']:.3f}]")
 

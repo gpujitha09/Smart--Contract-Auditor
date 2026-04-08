@@ -1,5 +1,5 @@
 """
-Smart Contract Security Auditor — OpenEnv Environment
+Smart Contract Security Auditor â€” OpenEnv Environment
 
 Core simulation logic: the agent audits Solidity contracts
 and gets rewarded for correctly identifying vulnerabilities.
@@ -10,8 +10,8 @@ import uuid
 from typing import Set, List, Dict, Optional
 
 from openenv.core.env_server import Environment
-from .models import AuditAction, AuditObservation, AuditState, VALID_VULNERABILITY_TYPES
-from .contracts import TASK_CONTRACTS, TASK_MAX_STEPS, TASK_NAMES
+from models import AuditAction, AuditObservation, AuditState, VALID_VULNERABILITY_TYPES
+from contracts import TASK_CONTRACTS, TASK_MAX_STEPS, TASK_NAMES
 
 
 class SmartContractAuditorEnv(Environment):
@@ -29,7 +29,7 @@ class SmartContractAuditorEnv(Environment):
         self._scores: List[float] = []
         self._task_name: str = "basic_audit"
 
-    # ── reset ─────────────────────────────────────────────────
+    # â”€â”€ reset â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     def reset(self, seed=None, episode_id=None, **kwargs) -> AuditObservation:
         task_name = kwargs.get("task_name", "basic_audit")
         if task_name not in TASK_CONTRACTS:
@@ -76,12 +76,12 @@ class SmartContractAuditorEnv(Environment):
             ),
         )
 
-    # ── step ──────────────────────────────────────────────────
+    # â”€â”€ step â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     def step(self, action: AuditAction, timeout_s=None, **kwargs) -> AuditObservation:
         self._state.step_count += 1
         remaining = self._max_steps - self._state.step_count
 
-        # ── Agent signals done ──
+        # â”€â”€ Agent signals done â”€â”€
         if action.vulnerability_type.lower().strip() == "done":
             final_score = self._compute_final_score()
             self._scores.append(final_score)
@@ -98,14 +98,14 @@ class SmartContractAuditorEnv(Environment):
                 message=self._summary_message(final_score),
             )
 
-        # ── Grade the finding ──
+        # â”€â”€ Grade the finding â”€â”€
         reward = self._grade_finding(action)
         self._scores.append(reward)
         self._state.current_score = self._compute_final_score()
 
         msg = self._step_feedback(action, reward)
 
-        # ── Max steps reached ──
+        # â”€â”€ Max steps reached â”€â”€
         if remaining <= 0:
             final_score = self._compute_final_score()
             return AuditObservation(
@@ -132,12 +132,12 @@ class SmartContractAuditorEnv(Environment):
             message=msg,
         )
 
-    # ── state property ────────────────────────────────────────
+    # â”€â”€ state property â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     @property
     def state(self) -> AuditState:
         return self._state
 
-    # ── grading logic ─────────────────────────────────────────
+    # â”€â”€ grading logic â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     def _grade_finding(self, action: AuditAction) -> float:
         """Score a single finding against unmatched ground-truth vulns."""
         best_score = 0.0
@@ -185,7 +185,7 @@ class SmartContractAuditorEnv(Environment):
         total = len(self._vulnerabilities)
         return round(min(sum(matched_scores) / total, 1.0), 3)
 
-    # ── feedback messages ─────────────────────────────────────
+    # â”€â”€ feedback messages â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     def _step_feedback(self, action: AuditAction, reward: float) -> str:
         if reward >= 0.9:
             return f"Excellent! '{action.vulnerability_type}' in '{action.location}' is correct with a great fix. Reward: {reward}"

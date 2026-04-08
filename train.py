@@ -11,9 +11,9 @@ import argparse
 from pathlib import Path
 from typing import Dict, List
 
-from .agent_learner import AuditorAgent
-from .environment import SmartContractAuditorEnv
-from .models import AuditAction
+from agent_learner import AuditorAgent
+from environment import SmartContractAuditorEnv
+from models import AuditAction
 
 
 def train_on_task(

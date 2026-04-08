@@ -2,7 +2,7 @@
 
 from openenv.core.env_client import EnvClient
 from openenv.core.client_types import StepResult
-from .models import AuditAction, AuditObservation, AuditState
+from models import AuditAction, AuditObservation, AuditState
 
 
 class SmartContractAuditorClient(

@@ -9,9 +9,9 @@ Ensemble strategies:
 
 from typing import List, Tuple, Optional
 import numpy as np
-from .agent_learner import AuditorAgent
-from .models import AuditAction, AuditObservation
-from .inference import query_hf_model, parse_llm_response
+from agent_learner import AuditorAgent
+from models import AuditAction, AuditObservation
+from inference import query_hf_model, parse_llm_response
 
 
 class EnsembleAuditor:
@@ -132,7 +132,7 @@ class EnsembleAuditor:
             (action, confidence_0_to_1)
         """
         # Build prompt for LLM
-        from .inference import SYSTEM_PROMPT
+        from inference import SYSTEM_PROMPT
         prompt = (
             f"{SYSTEM_PROMPT}\n\n"
             f"Contract: {obs.contract_name}\n"
@@ -152,7 +152,7 @@ class EnsembleAuditor:
         except Exception as e:
             # Fallback on LLM failure
             print(f"  [ENSEMBLE] LLM failed: {str(e)[:50]}")
-            from .models import VALID_VULNERABILITY_TYPES
+            from models import VALID_VULNERABILITY_TYPES
             fallback_action = AuditAction(vulnerability_type="done")
             return fallback_action, 0.0
 

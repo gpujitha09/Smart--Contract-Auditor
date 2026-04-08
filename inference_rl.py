@@ -9,9 +9,9 @@ Faster and more deterministic than LLM-based approach.
 import argparse
 from typing import List
 
-from .agent_learner import AuditorAgent
-from .environment import SmartContractAuditorEnv
-from .contracts import TASK_NAMES
+from agent_learner import AuditorAgent
+from environment import SmartContractAuditorEnv
+from contracts import TASK_NAMES
 
 
 def log_start(task: str, env: str, model: str) -> None:

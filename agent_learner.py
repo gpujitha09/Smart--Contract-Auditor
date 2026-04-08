@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Dict, Tuple, List, Optional
 from datetime import datetime
 
-from .models import VALID_VULNERABILITY_TYPES, AuditAction, AuditObservation
+from models import VALID_VULNERABILITY_TYPES, AuditAction, AuditObservation
 
 
 class ContractStateEncoder:
@@ -157,7 +157,7 @@ class QLearningAgent:
             int: State index in [0, 31]
         """
         # Sum first 10 features (most discriminative), scale by 4, mod 32
-        # Higher sum → contract more likely to have vulnerabilities
+        # Higher sum â†’ contract more likely to have vulnerabilities
         state_idx = int(np.sum(features[:10]) * 4) % self.n_states
         return state_idx
 
