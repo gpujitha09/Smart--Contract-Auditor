@@ -152,7 +152,7 @@ def run_task(task_name: str, env: SmartContractAuditorEnv) -> float:
     rewards: List[float] = []
     step_num = 0
     done = False
-    score = 0.0
+    score = 0.001
     try:
         obs = env.reset(task_name=task_name)
 
@@ -193,7 +193,7 @@ def run_task(task_name: str, env: SmartContractAuditorEnv) -> float:
             log_step(step=step_num, action=action_str, reward=reward, done=done, error=error_str)
 
             if done:
-                score = reward
+                score = max(0.001, min(0.999, reward))
                 break
 
             # Add assistant response and next user prompt to conversation
