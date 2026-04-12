@@ -216,6 +216,7 @@ def run_task(task_name: str, env: SmartContractAuditorEnv) -> float:
         close_fn = getattr(env, "close", None)
         if callable(close_fn):
             close_fn()
+        score = max(0.001, min(0.999, float(score)))   
         success = score >= SUCCESS_SCORE_THRESHOLD
         log_end(success=success, steps=step_num, score=score, rewards=rewards)
 
