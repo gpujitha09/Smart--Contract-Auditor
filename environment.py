@@ -196,7 +196,9 @@ class SmartContractAuditorEnv(Environment):
         penalty_score = false_positive_count * 0.05
         total = len(self._vulnerabilities)
         raw_score = min(sum(matched_scores) / total, 1.0)
-        return round(max(0.0, raw_score - penalty_score), 3)
+        score = round(max(0.0, raw_score - penalty_score), 3)
+        score = max(0.001, min(0.999, score))
+        return score
 
     def _has_quality_fix(self, fix_suggestion: Optional[str]) -> bool:
         if not fix_suggestion:
