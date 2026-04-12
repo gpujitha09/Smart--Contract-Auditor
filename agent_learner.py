@@ -1,12 +1,3 @@
-"""
-Q-Learning Agent for Smart Contract Auditing.
-
-The agent learns to map contract features to optimal vulnerability findings.
-State representation: encoded contract characteristics.
-Action space: vulnerability types to report.
-Reward: accuracy of findings.
-"""
-
 import json
 import numpy as np
 from pathlib import Path
@@ -17,7 +8,7 @@ from models import VALID_VULNERABILITY_TYPES, AuditAction, AuditObservation
 
 
 class ContractStateEncoder:
-    """Converts contract code into a numerical feature vector for RL agent."""
+    
 
     FEATURES = [
         "has_call",        # Low-level call() usage
@@ -78,7 +69,7 @@ class ContractStateEncoder:
 
 
 class VulnerabilityPredictor:
-    """Pattern-based heuristic to suggest vulnerabilities."""
+    
 
     PATTERN_MAP = {
         "reentrancy": [".call", ".send", "mapping"],
@@ -116,26 +107,16 @@ class VulnerabilityPredictor:
 
 
 class QLearningAgent:
-    """
-    Standard Q-Learning agent for Markov Decision Process (MDP).
     
-    Learns state-action value function Q(s,a) to maximize cumulative reward.
-    State: discretized contract features (32 bins)
-    Action: vulnerability type index
-    Reward: accuracy of audit finding (0.0-1.0)
-    """
 
     def __init__(self, n_vulnerability_types: int = len(VALID_VULNERABILITY_TYPES) - 1):
-        # === State and Action Spaces ===
-        self.n_states = 32  # Discretized feature space into 32 state bins
-        self.n_actions = n_vulnerability_types  # One action per vulnerability type
         
-        # === Q-Table: Core Learning Structure ===
-        # Shape: (n_states, n_actions)
-        # Stores learned value of each state-action pair
+        self.n_states = 32  
+        self.n_actions = n_vulnerability_types  
+        
+        
         self.q_table = np.zeros((self.n_states, self.n_actions), dtype=np.float32)
         
-        # === Hyperparameters (tuned for vulnerability detection) ===
         self.alpha = 0.1      # Learning rate: 10% weight to new experience (conservative)
         self.gamma = 0.95     # Discount factor: future rewards matter (long-term thinking)
         self.epsilon = 0.1    # Exploration rate: 10% chance to explore randomly
@@ -184,8 +165,7 @@ class QLearningAgent:
             # Try random action to discover new patterns
             return np.random.choice(valid_actions)
         else:
-            # === EXPLOITATION ===
-            # Choose action with highest Q-value in this state
+            
             scores = [self.q_table[state, a] for a in valid_actions]
             max_score = max(scores)
             best_actions = [a for a, s in zip(valid_actions, scores) if s == max_score]
@@ -208,17 +188,16 @@ class QLearningAgent:
             reward: Reward received (0.0-1.0)
             next_state: State transitioned to
         """
-        # Maximum possible future value from next state
+        
         max_next_q = np.max(self.q_table[next_state, :])
         
-        # Current Q-value estimate
+       
         current_q = self.q_table[state, action]
         
-        # Compute new Q-value using Bellman equation
-        # Temporal difference (reward + gamma * max_next_q - current_q) drives learning
+        
         new_q = current_q + self.alpha * (reward + self.gamma * max_next_q - current_q)
         
-        # Update Q-table in-place
+        
         self.q_table[state, action] = new_q
 
     def save(self, filepath: str):

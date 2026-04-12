@@ -1,12 +1,3 @@
-"""
-Ensemble methods combining RL and LLM for improved predictions.
-
-Ensemble strategies:
-1. Weighted average: Combine RL confidence and LLM confidence
-2. Voting: Both must agree on vulnerability type
-3. Fallback: Use LLM if RL uncertain, RL if LLM fails
-"""
-
 from typing import List, Tuple, Optional
 import numpy as np
 from agent_learner import AuditorAgent
@@ -15,12 +6,7 @@ from inference import query_llm, parse_llm_response
 
 
 class EnsembleAuditor:
-    """
-    Combines RL and LLM agents for more robust vulnerability detection.
     
-    Strategy: Weighted voting where RL provides pattern-based confidence
-    and LLM provides semantic understanding. Disagreements are flagged.
-    """
 
     def __init__(self, rl_agent: Optional[AuditorAgent] = None, llm_enabled: bool = False):
         """

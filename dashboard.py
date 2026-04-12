@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-Interactive Gradio Dashboard for Smart Contract Auditor.
-
-Allows users to:
-- Paste contract code
-- Select auditing mode (RL Agent or LLM)
-- View real-time findings
-- Compare results
-"""
-
 import gradio as gr
 import json
 import os
@@ -21,7 +10,7 @@ from models import AuditAction
 from contracts import TASK_NAMES
 
 
-# Global instances
+
 agent = AuditorAgent()
 env = SmartContractAuditorEnv()
 
@@ -106,7 +95,7 @@ def compare_audits(
     )
 
 
-# ── Gradio UI ──────────────────────────────────────────────────
+
 
 with gr.Blocks(title="Smart Contract Security Auditor") as demo:
     

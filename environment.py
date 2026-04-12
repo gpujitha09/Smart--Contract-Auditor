@@ -1,10 +1,3 @@
-"""
-Smart Contract Security Auditor â€” OpenEnv Environment
-
-Core simulation logic: the agent audits Solidity contracts
-and gets rewarded for correctly identifying vulnerabilities.
-"""
-
 import random
 import uuid
 from typing import Set, List, Dict, Optional
