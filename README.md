@@ -83,16 +83,6 @@ Final episode score:
 - false-positive penalty: `0.05` per unmatched finding
 - clipped to `[0.0, 1.0]`
 
-## API Endpoints (OpenEnv)
-
-| Method | Path | Description |
-|---|---|---|
-| `POST` | `/reset` | Start a new episode |
-| `POST` | `/step` | Submit one audit action |
-| `GET` | `/state` | Read current environment state |
-| `GET` | `/health` | Health check |
-| `GET` | `/docs` | API docs |
-
 ## Quick Start
 
 ### 1) Install dependencies
