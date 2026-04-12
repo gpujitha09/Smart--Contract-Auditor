@@ -106,6 +106,14 @@ python inference.py
 python inference_rl.py --task basic_audit --num-runs 5
 ```
 
+## Baseline Scores
+
+| Task | Expected Score |
+|---|---|
+| basic_audit | ~0.85 |
+| intermediate_audit | ~0.65 |
+| advanced_audit | ~0.40 |
+
 ## Expected Inference Log Format
 
 `inference.py` prints these line types:
